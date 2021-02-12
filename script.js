@@ -32,7 +32,7 @@ var geojson = {
       properties: {
         title: "Camp Folly",
         description:
-          '<a href="https://www.loyalistscouts.ca/camps">Website</a> <p> Campbuz'
+          '<a href="https://community.scouti.tk/topic/folly">Community topic</a>'
       }
     },
     {
@@ -44,7 +44,7 @@ var geojson = {
       properties: {
         title: "Camp Legewade",
         description:
-          '<a href="https://sites.google.com/site/camplegewade1/home">Website</a> <p> Campbuz'
+          '<a href="https://community.scouti.tk/topic/legwade">Community topic</a> '
       }
     },
     {
@@ -56,7 +56,7 @@ var geojson = {
       properties: {
         title: "Apple Hill Scout Reserve",
         description:
-          '<a href="applehillscoutreserve.ca">Website</a> <p> Campbuz'
+          '<a href="https://community.scouti.tk/topic/applehill">Communitytopic</a>'
       }
     }
   ]
