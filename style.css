@@ -11,7 +11,7 @@ body {
 }
 
 .marker {
-  background-image: url("https://raw.githubusercontent.com/Benjamin-del/campmaps/map/beta/images/favicon.ico");
+  background-image: url("https://github.com/Benjamin-del/campmaps/blob/map/images/marker.png");
   background-size: cover;
   width: 50px;
   height: 50px;
