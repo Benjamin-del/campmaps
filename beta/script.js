@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/satellite-v9",
   center: [-76.469368, 44.77903],
-  zoom: 12
+  zoom: 10
 });
 var geojson = {
   type: "FeatureCollection",
