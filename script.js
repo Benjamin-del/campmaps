@@ -20,7 +20,7 @@ var geojson = {
       properties: {
         title: " Camp Opemikon",
         description:
-          '<a href="http://voy.scouts.ca/ca/camp-opemikon">Website</a> <p> Campbuz'
+          '<a href="https://community.scouti.tk/topic/opemikon">Community topic</a>'
       }
     },
     {
