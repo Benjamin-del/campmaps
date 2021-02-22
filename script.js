@@ -1,4 +1,5 @@
 mapboxgl.accessToken =
+  // Your token goes here. This will not work on your site. se more at https://scouti.tk/maptokens
   "pk.eyJ1IjoiYmVuamFtaW5tYWhlcmFsIiwiYSI6ImNrbGJnOWNtbTBienkydW1kYWI4ZGVxdWkifQ.XAk7YMTVhFC74EPm71BAQA";
 
 var map = new mapboxgl.Map({
@@ -61,26 +62,3 @@ var geojson = {
     }
   ]
 };
-// add markers to map
-geojson.features.forEach(function(marker) {
-  // create a HTML element for each feature
-  var el = document.createElement("div");
-  el.className = "marker";
-
-  // make a marker for each feature and add to the map
-
-  new mapboxgl.Marker(el)
-    .setLngLat(marker.geometry.coordinates)
-    .setPopup(
-      new mapboxgl.Popup({ offset: 25 }) // add popups
-        .setHTML(
-          "<h3>" +
-            marker.properties.title +
-            "</h3><p>" +
-            marker.properties.description +
-            "</p>"
-        )
-    )
-    .addTo(map);
-  // only one .addto(map)
-});
