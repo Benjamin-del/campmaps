@@ -34,7 +34,19 @@ var geojson = {
         description:
           '<a href="https://community.scouti.tk/topic/folly">Community topic</a>'
       }
-    },
+    //},
+    //{
+      //type: "Feature",
+      //geometry: {
+        //type: "Point",
+        //coordinates: [-LAT, LONG]
+      //},
+      //properties: {
+        //title: "TITLE",
+        //description:
+          //'<a href="WEBSITE">TEXT</a>'
+      //}
+    //},
     {
       type: "Feature",
       geometry: {
@@ -61,26 +73,3 @@ var geojson = {
     }
   ]
 };
-// add markers to map
-geojson.features.forEach(function(marker) {
-  // create a HTML element for each feature
-  var el = document.createElement("div");
-  el.className = "marker";
-
-  // make a marker for each feature and add to the map
-
-  new mapboxgl.Marker(el)
-    .setLngLat(marker.geometry.coordinates)
-    .setPopup(
-      new mapboxgl.Popup({ offset: 25 }) // add popups
-        .setHTML(
-          "<h3>" +
-            marker.properties.title +
-            "</h3><p>" +
-            marker.properties.description +
-            "</p>"
-        )
-    )
-    .addTo(map);
-  // only one .addto(map)
-});
