@@ -48,17 +48,17 @@ var geojson = {
           '<a href="https://community.scouti.tk/topic/legwade">Community topic</a> '
       }
     },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [-74.74926, 45.23034]
-      },
-      properties: {
-        title: "Apple Hill Scout Reserve",
-        description:
-          '<a href="https://community.scouti.tk/topic/applehill">Communitytopic</a>'
-      }
+    //{
+      //type: "Feature",
+      //geometry: {
+        //type: "Point",
+        //coordinates: [-74.74926, 45.23034]
+      //},
+      //properties: {
+        //title: "Apple Hill Scout Reserve",
+        //description:
+          //'<a href="https://community.scouti.tk/topic/applehill">Communitytopic</a>'
+      //}
     }
   ]
 };
