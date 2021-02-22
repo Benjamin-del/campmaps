@@ -8,6 +8,9 @@ var map = new mapboxgl.Map({
   center: [-76.469368, 44.77903],
   zoom: 6
 });
+
+map.addControl(new mapboxgl.NavigationControl());
+
 var geojson = {
   type: "FeatureCollection",
 
