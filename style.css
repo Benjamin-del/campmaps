@@ -1,3 +1,20 @@
+div.fixed {
+  font-family: Arial;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+} 
+
+P  {text-align: center }
+H1 {text-align: center}
+H2 {text-align: center}
+H3 {text-align: Center}
+Ul {text-align: center}
+li {text-align: center}
+
+/* Map styles now */
+
 body {
   margin: 0;
   padding: 0;
