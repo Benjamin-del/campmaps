@@ -6,7 +6,8 @@ var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/satellite-streets-v11",
   center: [-76.469368, 44.77903],
-  zoom: 6
+  zoom: 6,
+  hash:true
 });
 
 map.addControl(new mapboxgl.NavigationControl());
