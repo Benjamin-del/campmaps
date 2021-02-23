@@ -5,9 +5,9 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/satellite-streets-v11",
-  center: [-76.469368, 44.77903],
-  zoom: 7.61,
-  hash:true
+  center: [-76.101, 44.894], 
+  zoom: 7.56,
+  hash: true
 });
 
 map.addControl(new mapboxgl.NavigationControl());
