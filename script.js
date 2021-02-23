@@ -1,5 +1,5 @@
 mapboxgl.accessToken =
-  // Your token goes here. This will not work on your site. se more at https://scouti.tk/maptokens
+  // Your token goes here. This will not work on your site. See more at https://scouti.tk/maptokens
   "pk.eyJ1IjoiYmVuamFtaW5tYWhlcmFsIiwiYSI6ImNrbGJnOWNtbTBienkydW1kYWI4ZGVxdWkifQ.XAk7YMTVhFC74EPm71BAQA";
 
 var map = new mapboxgl.Map({
